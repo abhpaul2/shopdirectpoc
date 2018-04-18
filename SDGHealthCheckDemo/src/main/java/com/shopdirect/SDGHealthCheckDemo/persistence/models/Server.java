@@ -43,8 +43,6 @@ public  class Server {
 	}
 	public void setUsedSpace(int usedSpace) {
 		this.usedSpace = usedSpace;
-	}
-
-    
+	}    
 
 }
