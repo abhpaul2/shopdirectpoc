@@ -28,7 +28,7 @@ public class AutoTest {
 				Statement statement = conn.createStatement();
 				ResultSet rs = statement.executeQuery("SELECT SYSDATE FROM DUAL");
 				while(rs.next()) {
-	                System.out.println(rs.getObject(1));
+	                System.out.println(rs.getObject(1)); 
 	            }
 				System.out.println("Automated testing sucessful. Database is up and running.");
 				
